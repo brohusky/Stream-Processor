@@ -1,7 +1,7 @@
 import os
 import cv2 as cv
 
-from frame_processor import FrameProcessor
+from src.frame_processor import FrameProcessor
 
 class FaceDetector:
   def __init__(self):
